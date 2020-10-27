@@ -1,63 +1,55 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# PWA Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+Budget Tracker is an application that will help the user keep up with expenses. They can add funds, for any money aquired, or subtract, depending on purchases. A line graph is created, based on the data, that will illustrate spending and gaining patterns. The best feature is that the Budget Tracker can also be used offline. Data can still be gathered, but will not populate until the user is back online.
 
-Offline Functionality:
+## Installation
 
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+Budget Tracker is installed by first cloning the repo from [Edibozu](https://github.com/Edibozu/pwa-budget-tracker). Once cloned, the code can be viewed in VS Code. The application itself is deployed on [Heroku](https://pwa-budget-tracker-ep.herokuapp.com/).
+<br/><br/>
+Here we have the Budget Tracker. It's simple design makes it easy for anyone to use. Data has been collected and shows an example of how its displayed, with a table and a line graph 
+<br/><br/>
+![Application Screenshot](./public/sc1.png)
+<br/><br/><br/>
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Questions
 
-- - -
+For any questions, contact me on any of the following links:
 
-## Commit Early and Often
+Email: edibozu@gmail.com
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Heroku: https://pwa-budget-tracker-ep.herokuapp.com/
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+GitHub Repo: https://github.com/Edibozu/pwa-budget-tracker
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+LinkedIn: https://www.linkedin.com/in/eduardo-pineda-5595431b6/
 
-* Follow these guidelines for committing:
+## Contributions
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+This application was aided by my fellow classmates during our after class study sessions.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+## License
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+MIT License
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+Copyright (c) [2020] [Eduardo Pineda]
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
